@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complite Responsiv E-Commerce Website Design Tutorial</title>
+
+    <!-----Font awesome link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!---custom css file link-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!--header section start-->
+
+<header>
+<div class="header-1">
+   
+   <a href="#" class="logo"><i class="fa fa-shopping-bag" aria-hidden="true"></i>Shopping</a>
+   <div class="form-container">
+      <form action="">
+           <input type="search" placeholder="search products" id="search">
+           <label><i class="fa fa-search"></i></label>
+      </form>
+   </div>
+</div>
+
+<div class="header-2">
+    <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#arrival">arrival</a></li>
+            <li><a href="#featured">featured</a></li>
+            <li><a href="#gallery">gallery</a></li>
+            <li><a href="#deal">deal</a></li>
+        </ul>
+    </nav>
+    <div class="icons">
+        <a href="#" class="fa fa-heart-o" style="font-size:20px"></a>
+        <a href="#" ><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        <a href="#"class="fa fa-user" style="font-size:20px"></a>
+    </div>
+</div>
+
+</header>
+
+
+<!----header section end-->
+
+<!-- Slideshow container -->
+
+       <section class="home" id="home">
+      <div class="slideshow-container">
+      <div class="home-slider">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="imges/home i.webp" width="1000px" class="responsive">
+      <div class="text"><h1>Heavy Dscount</h1></div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+      <a href="#"><button>Discount</button></a>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="imges/gadgets.jpg" style="width:100% ">
+      <div class="text"><h1>Latest Gadgets</h1></div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+      <a href="#"><button>Discount</button></a>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="imges/shoes.jpg" style="width:100%">
+      <div class="text"><h1>Shoes</h1></div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+      <a href="#"><button>Discount</button></a>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="imges/grocery.jpg" style="width:100%">
+        <div class="text"><h1>Fress Grocery</h1></div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <a href="#"><button>Discount</button></a>
+      </div>
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+    </div>
+
+</section>
+<!----Home seaction end-->
+
+<!---arrival seaction start-->
+ <section class="arrival" id="arrival">
+   <h1 class="heading"><span>new arrivals</span></h1>
+   <div class="box-container">
+
+     <div class="box">
+       <div class="image">
+         <img src="imges/latest tv.jpg" alt="">
+       </div>
+       <div class="info">
+         <h3>smart tv</h3>
+         <div class="subinfo">
+           <strong class="price">$1000/-<span>$1500/-</span></strong>
+           <div class="start">
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star"></i>
+             <i class="fa fa-star-half"></i>
+           </div>
+         </div>
+       </div>
+       <div class="overlay">
+         <a href="#" style="--1:1;" class="fa fa-heart" style="font-size:20px"></a>
+         <a href="#" style="--1:2;" class="fa fa-shopping-cart" style="font-size:20px"></a>
+         <a href="#" style="--1:3;" class="fa fa-search" style="font-size:20px"></a>
+         
+       </div>
+      </div>
+
+     <div class="box">
+      <div class="image">
+        <img src="imges/game.jpg" alt="">
+      </div>
+      <div class="info">
+        <h3>game console</h3>
+        <div class="subinfo">
+          <strong class="price">$1000/-<span>$1500/-</span></strong>
+          <div class="start">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+          </div>
+        </div>
+      </div>
+      <div class="overlay">
+        <a href="#" style="--1:1;" class="fa fa-heart" style="font-size:20px"></a>
+        <a href="#" style="--1:2;" class="fa fa-shopping-cart" style="font-size:20px"></a>
+        <a href="#" style="--1:3;" class="fa fa-search" style="font-size:20px"></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+        <img src="imges/shoes i.jpg" alt="">
+      </div>
+      <div class="info">
+        <h3>latest shoes</h3>
+        <div class="subinfo">
+          <strong class="price">$1000/-<span>$1500/-</span></strong>
+          <div class="start">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+          </div>
+        </div>
+      </div>
+      <div class="overlay">
+        <a href="#" style="--1:1;" class="fa fa-heart" style="font-size:20px"></a>
+        <a href="#" style="--1:2;" class="fa fa-shopping-cart" style="font-size:20px"></a>
+        <a href="#" style="--1:3;" class="fa fa-search" style="font-size:20px"></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+        <img src="imges/phone.jpg" alt="">
+      </div>
+      <div class="info">
+        <h3>smartphones</h3>
+        <div class="subinfo">
+          <strong class="price">$1000/-<span>$1500/-</span></strong>
+          <div class="start">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+          </div>
+        </div>
+      </div>
+      <div class="overlay">
+        <a href="#" style="--1:1;" class="fa fa-heart" style="font-size:20px"></a>
+        <a href="#" style="--1:2;" class="fa fa-shopping-cart" style="font-size:20px"></a>
+        <a href="#" style="--1:3;" class="fa fa-search" style="font-size:20px"></a>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image">
+        <img src="imges/t-shirt.jpg" alt="">
+      </div>
+      <div class="info">
+        <h3>branded t-shirts</h3>
+        <div class="subinfo">
+          <strong class="price">$1000/-<span>$1500/-</span></strong>
+          <div class="start">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+          </div>
+        </div>
+      </div>
+      <div class="overlay">
+        <a href="#" style="--1:1;" class="fa fa-heart" style="font-size:20px"></a>
+        <a href="#" style="--1:2;" class="fa fa-shopping-cart" style="font-size:20px"></a>
+        <a href="#" style="--1:3;" class="fa fa-search" style="font-size:20px"></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+        <img src="imges/speaker.jpg" alt="">
+      </div>
+      <div class="info">
+        <h3>aazing speakers</h3>
+        <div class="subinfo">
+          <strong class="price">$1000/-<span>$1500/-</span></strong>
+          <div class="start">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+          </div>
+        </div>
+      </div>
+      <div class="overlay">
+        <a href="#" style="--1:1;" class="fa fa-heart" style="font-size:20px"></a>
+        <a href="#" style="--1:2;" class="fa fa-shopping-cart" style="font-size:20px"></a>
+        <a href="#" style="--1:3;" class="fa fa-search" style="font-size:20px"></a>
+      </div>
+    </div>
+   </div>
+ </section>
+<!---arrival section end-->
+
+<!--feature section  start --->
+
+<section class="featured" id="featured">
+
+  <h1 class="heading"><span> featured product</span></h1>
+
+  <div class="row">
+
+    <div class="image-container">
+
+      <div class="big-image">
+        <img src="imges/watch2.jpg" alt="">
+      </div>
+
+      <div class="small-image">
+        <img src="imges/watch1.jpg" alt="">
+        <img src="imges/watch.jpg" alt="">
+        <img src="imges/watch3.jpg" alt="">
+        <img src="imges/watch4.jpg" alt="">
+      </div>
+
+    </div>
+    <div class="contant">
+      <h3>smart watches</h3>
+      <div class="stars">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+       <span>(500+) reviews</span>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate?</p>
+      <strong class="price">$1000/<span>$1500/</span></strong>
+      <a href="#"><button class="btn"> buy now</button></a>
+    </div>
+  </div>
+</section>
+
+<!--feature section  end--->
+
+<!--gallery section start-->
+<section class="gallery" id="gallery">
+  <h3 class="heading"><span>product gallery</span></h3>
+  <ul class="controls">
+    <li class="btn button-active" data-filter="all">all</li>
+    <li class="btn" data-filter="phone">phone</li>
+    <li class="btn" data-filter="laptop">laptop</li>
+    <li class="btn" data-filter="headphone">headphone</li>
+    <li class="btn" data-filter="Shoes">shoes</li>
+  </ul>
+  <div class="image-container">
+    <div class="box phone">
+      <div class="image">
+        <img src="imges/smartphone.jpg" alt="">
+      </div>
+      <div class="info">
+        <h3>smartphones</h3>
+        <div class="subinfo">
+          <strong class="price">$1000/-</strong>
+          <div class="start">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="box phone">
+        <div class="image">
+          <img src="imges/samrtphone1.jpg" alt="">
+        </div>
+        <div class="info">
+          <h3>smartphone</h3>
+          <div class="subinfo">
+            <strong class="price">$1000/-</strong>
+            <div class="start">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+          </div>
+        </div>
+        </div>
+        
+
+
+        <div class="box laptop">
+          <div class="image">
+            <img src="imges/laptop.jpg" alt="">
+          </div>
+          <div class="info">
+            <h3>laptop</h3>
+            <div class="subinfo">
+              <strong class="price">$1000/-</strong>
+              <div class="start">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <div class="box shoes">
+            <div class="image">
+              <img src="imges/shoesll.webp" alt="">
+            </div>
+            <div class="info">
+              <h3>shoes</h3>
+              <div class="subinfo">
+                <strong class="price">$1000/-</strong>
+                <div class="start">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half"></i>
+                </div>
+              </div>
+            </div>
+            </div>
+
+            <div class="box laptop">
+              <div class="image">
+                <img src="imges/Laptop1.jpg" alt="">
+              </div>
+              <div class="info">
+                <h3>laptop</h3>
+                <div class="subinfo">
+                  <strong class="price">$1000/-</strong>
+                  <div class="start">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+              <div class="box headphone">
+                <div class="image">
+                  <img src="imges/h1.jpg" alt="">
+                </div>
+                <div class="info">
+                  <h3>headphone</h3>
+                  <div class="subinfo">
+                    <strong class="price">$1000/-</strong>
+                    <div class="start">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half"></i>
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+                <div class="box shoes">
+                  <div class="image">
+                    <img src="imges/shoes2.jpg" alt="">
+                  </div>
+                  <div class="info">
+                    <h3>shoes</h3>
+                    <div class="subinfo">
+                      <strong class="price">$1000/-</strong>
+                      <div class="start">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+
+                  <div class="box headphone">
+                    <div class="image">
+                      <img src="imges/headphone3.jpg" alt="">
+                    </div>
+                    <div class="info">
+                      <h3>headphone</h3>
+                      <div class="subinfo">
+                        <strong class="price">$1000/-</strong>
+                        <div class="start">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star-half"></i>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+
+                    <div class="box headphone">
+                      <div class="image">
+                        <img src="imges/h2.jpg" alt="">
+                      </div>
+                      <div class="info">
+                        <h3>headphone</h3>
+                        <div class="subinfo">
+                          <strong class="price">$1000/-</strong>
+                          <div class="start">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+
+</section>
+
+<!--gallery section end-->
+
+<!---deal seaction start-->
+<section class="deal" id="deal">
+  <h1 class="heading"><span> best deals</span></h1>
+   <div class="box-container">
+
+     <div class="box">
+       <img src="imges/slpatop.jpg" alt="">
+       <div class="content">
+       <h3>letest laptop</h3>
+       <p>upto 25% off on first purchase</p>
+       <a href="#"><button class="btn">explore</button></a>
+     </div>
+   </div>
+
+   <div class="box">
+    <img src="imges/sheadphone.webp" alt="">
+    <div class="content">
+    <h3>new headphone</h3>
+    <p>upto 25% off on first purchase</p>
+    <a href="#"><button class="btn">explore</button></a>
+  </div>
+</div>
+</div>
+
+<div class="row">
+   <div class="col-md-4">
+     <h1><i class="iconify" data-icon="fa-solid:shipping-fast"></i></h1>
+    <h3>fast delivery</h3>  
+    <p>Lorem ipsum dolor, sit amet consectetur<br> adipisicing elit. Quidem, excepturi.</p> 
+ </div>
+
+
+  <div class="col-md-4">
+    <h1><i class="iconify" data-icon="fa-solid:user-clock"></i></h1>
+   <h3>24 x 7 support</h3>  
+   <p>Lorem ipsum dolor, sit amet consectetur <br>adipisicing elit. Quidem, excepturi.</p> 
+</div>
+
+
+  <div class="col-md-4">
+    <h1><i class="iconify" data-icon="fa-solid:box"></i></h1>
+   <h3>24 x 7 support</h3>  
+   <p>Lorem ipsum dolor, sit amet consectetur<br> adipisicing elit. Quidem, excepturi.</p> 
+</div>
+
+
+  <div class="col-md-4">
+    <h1> <i class="iconify" data-icon="fa-solid:money-check-alt"></i></h1>
+   <h3>easy payment</h3>  
+   <p>Lorem ipsum dolor, sit amet consectetur<br> adipisicing elit. Quidem, excepturi.</p> 
+</div>
+
+
+ </div>
+</section>
+<!---deal seaction end-->
+
+<!---newsletter seaction  start-->
+<section class="newsletter">
+  <h1>newsletter</h1>
+  <p>get in touch for latest discounts and updates</p>
+  <form action="">
+    <input type="email" placeholder="enter your email"> 
+    <input type="submit" class="btn">
+
+  </form>
+
+</section>
+<!---newsletter seaction  end-->
+
+<!-----footer seaction start-->
+<section class="footer">
+  <div class="box-container">
+    <div class="box">
+      <a href="#" class="logo"><i class="fa fa-shopping-bag" aria-hidden="true"></i>Shopping</a>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sapiente corrupti cupiditate, pariatur perferendis officiis fugiat rem autem nisi cumque?</p>
+    </div>
+
+    <div class="box">
+     <h3>links</h3>
+      <a href="#">home</a>
+      <a href="#">arrival</a>
+      <a href="#">featured</a>
+      <a href="#">gallery</a>
+      <a href="#">deals</a>
+    </div>
+    <div class="box">
+      <h3>contact us</h3>
+      <p><i class="fa fa-home" aria-hidden="true"></i>
+      mumbai, maharashtra,
+    india-400104
+  </p>
+  <p><i class="fa fa-phone" aria-hidden="true"></i>
+        +9100000000
+  </p>
+  <p><i class="fa fa-globe" aria-hidden="true"></i>
+      xyz@yoursiite.com
+  </p>
+    </div>
+
+  </div>
+  <h1 class="credit"> created by <span>mr.web designer</span> all rights reservd. </h1>
+    <a href="#" class="to-top"> <img src="imges/arrow.jpg" width="50px" alt=""></a>
+    <img src="imges/arrow.png" width="50px" alt="">
+    
+</section>
+
+<!-----footer seaction end-->
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!---jquery cdn link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-----custom js file link-->
+    <script src="script.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+    
+</body>
+</html>
